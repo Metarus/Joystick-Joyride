@@ -22,7 +22,7 @@ void setup()
 {
   //Setting up the minim
   minim = new Minim(this);
-
+  
   music = minim.loadFile("Megalovania.mp3");
   imageMode(CENTER);
   fullScreen(P2D);
